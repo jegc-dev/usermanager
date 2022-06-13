@@ -26,11 +26,11 @@ after all operations are completed. Typically used for unit testing.
 
 ## Architecture Diagram
 
-![](../../Documents/EMTEC/EMTEC_UserManager.drawio.png)
+![](images/EMTEC_UserManager.drawio.png)
 
 ## Entity - Relationship Diagram
 
-![](../../Documents/EMTEC/EMTEC_UserManager_ER.drawio.png)
+![](images/EMTEC_UserManager_ER.drawio.png)
 
 ## Application Variables
 
