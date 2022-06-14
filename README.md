@@ -83,6 +83,9 @@ mvn spring-boot:run
 
 ## API Curl list
 ### UpsertUser
+
+![](images/EMTEC-UpsertUser-sequenceDiagram.png)
+
 ````
 curl --location --request POST 'localhost:8080/api/v1/registration' \
 --header 'Content-Type: application/json' \
