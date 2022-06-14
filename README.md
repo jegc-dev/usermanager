@@ -123,12 +123,7 @@ curl --location --request GET 'localhost:8080/api/v1/users' \
 ````
 ### Confirm Token
 ````
-curl --location --request GET 'localhost:8080/api/v1/registration/confirm?token=0c301579-cca3-4159-b8e4-c37bb9a8b692' \
---header 'Content-Type: application/json' \
---data-raw '{
-    "firstName": "John",
-    "lastname": "Doe",
-    "email": "jhon.doe@gmail.com",
-    "password": "password"
-}'
+curl --location --request GET 'localhost:8080/api/v1/registration/confirm?token=651dea0f-45f3-4e59-acb2-9b99b958f7be' \
+--header 'Cookie: JSESSIONID=01446237C8E93010F57CC572650D5E15' \
+--data-raw ''
 ````
